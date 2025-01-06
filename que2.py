@@ -1,0 +1,6 @@
+a=int(input("Enter a : "))
+b=int(input("Enter b : "))
+result = (a+b)*(a+b)
+c=(a*a) + (2*(a*b)) + (b*b)
+compare = (result == c)
+print(compare)
